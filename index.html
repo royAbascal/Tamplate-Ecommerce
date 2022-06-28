@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/Slick/slick.css">
+    <link rel="stylesheet" href="assets/css/Slick/slick-theme.css">
+    <title>My Clothes</title>
+  </head>
+  <body>
+    <div id="nav" class="menu">
+      <nav class="row wrapper">
+        <div class="col-4 align-self-center logo">
+          <img src="assets\Media\Icons\logo.svg" alt="My Clothes" class="logo"/>
+        </div>
+        <div class="col-4 align-self-center text-align-center search">
+          <div class="box-search-p">
+            <form action="#">
+              <div class="form-group box-search">
+                <input list="clothes" placeholder="Buscar en la tienda..." type="search"/> <button type="submit" class="btn-primary rounded btn-search"><img src="\assets\Media\Icons\icon_magnifier.svg" alt="" class="img-fluid" /></button>
+                <datalist id="clothes">
+                  <option value="Ropa">
+                  <option value="Abrigos">
+                  <option value="Polos">
+                  <option value="Camisa">
+                  <option value="Tenis">
+                  <option value="Lenceria">
+                </datalist>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-4 justify-content-end text-align-right username">
+          <div class="greetings align-self-center">
+            <span class="usuario">Hola</span>
+            <span class="usuario">Nombre del Usuario</span>
+          </div>
+          <div class="avatar align-self-center"><img src="assets\Media\Icons\icon_my_account.svg" alt="Mi cuenta" /></div>
+          <div class="cart align-self-center"><img src="assets\Media\Icons\icon_mycart.svg" alt="Mi carrito" /></div>
+        </div>
+      </nav>
+    </div>
+    
+    <div class="wrapper">
+      <nav class="nav-submenu">
+        <ol class="breadcumb">
+          <li class="item-breadcumb underline usuario">Inicio</li>
+          <li class="item-breadcumb underline usuario">Clothes</li>
+          <li class="item-breadcumb-last usuario">Divertida Unisex Halloween Grupo Craft Tee</li>
+        </ol>
+      </nav>
+      <section class="product-info columnInSm">
+        <div class="img-container col-5">
+          <img src="assets\Media\Images\principal@2x.png" class="img-fluid">
+        </div>
+
+        <div class="detail-info-product col-5 bg-olive">
+          <div class="form-group">
+            <p class="font-weight-bold h1 text-blue">Zoltan Gym Tee Grupo Craft Tee Zoltan Gym Tee</p>
+            <p class="font-weight-bold text-blue">SKU: 34234JSDR</p>
+            <p class="description">
+              Ambos sabemos que las brujas están locas, especialmente las Sandersons. Así que reúne a tu escuadrón para Halloween, practica tu artesanía y lanza un poco de Hocus Pocus con estas increíbles camisas para todo tu grupo.
+            </p>
+          </div>
+          <div class="form-group talla">
+            <p class="font-weight-bold text-blue">Talla</p>
+            <label for="tallaCH">CH</label>
+            <input type="radio" name="talla" id="tallaCH">
+
+            <label for="tallaM" class="disable-talla">M</label>
+            <input type="radio" name="talla" id="tallaM">
+
+            <label for="tallaG">G</label>
+            <input type="radio" name="talla" id="tallaG">
+
+            <label for="tallaEG">EG</label>
+            <input type="radio" name="talla" id="tallaEG">
+          </div>
+
+          <div class="form-group">
+            <p class="font-weight-bold text-blue">Cantidad:</p>
+            <div class="box-addtoCart">
+              <button class="less button-action">-</button>
+              <input type="text" value="1" class="input-addTo-Cart">
+              <button class="more button-action">+</button>
+            </div>
+          </div>
+
+          <div class="actionButtons">
+            <button class="addToCart" id="addProduct">
+              Agregar al carrito
+              <img src="assets/Media/Icons/icon_btn_mycart.svg" class="icon-btn-cart">
+            </button>
+            <button class="addFav" id="addFav">
+              <img src="assets/Media/Icons/icon_wishlist.svg" class="icon-btn-cart" alt="" srcset="">&nbsp;Agregar a favoritos
+            </button>
+          </div>
+          <p class="description-mobile">
+            Ambos sabemos que las brujas están locas, especialmente las Sandersons. Así que reúne a tu escuadrón para Halloween, practica tu artesanía y lanza un poco de Hocus Pocus con estas increíbles camisas para todo tu grupo.
+          </p>
+        </div>
+    </section>
+    <section class="moreDetails">
+      <div>
+        <h1>Más detalles</h1>
+        <p>Luma’s most popular top, the Gabrielle Micro Sleeve is back with even more comfort and style.</p>
+        <ul class="list-style-disk">
+         <li>Lime green v-neck tee.</li>
+         <li>Slimming, flattering fit.</li>
+         <li>Moisture-wicking, quick-drying, anti-microbial, and anti-odor construction.</li>
+         <li>Longer curved hem provides additional coverage.</li>
+         <li>55% Hemp / 45% Organic Cotton</li>
+        </ul>
+      </div>
+    </section>
+    <section class="relatedProducts">
+      <div>
+        <h1>Productos relacionados</h1>
+      </div>
+      <div class="slider-products">
+          <div class="form-group border-cards border-normal">
+            <img class="product-1" src="assets\Media\Images\img_grid_1@2x.png" alt="">
+            <div class="form-group legend">
+              <p class="nameProduct">Zoltan Gym Tee</p>
+              <p class="h2 text-pink">$29.00</p>
+            </div>
+          </div>
+        <div class="form-group border-cards border-normal">
+          <img class="product-1" src="assets\Media\Images\img_grid_2@2x.png" alt="">
+          <div class="form-group legend">
+            <p class="nameProduct">Zoltan Gym Tee</p>
+            <p class="h2 text-pink">$29.00</p>
+          </div>
+        </div>
+        <div class="form-group border-cards border-normal">
+          <img class="product-1" src="assets\Media\Images\img_grid_3@2x.png" alt="">
+          <div class="form-group legend">
+            <p class="nameProduct">Zoltan Gym Tee</p>
+            <p class="h2 text-pink">$29.00</p>
+          </div>
+        </div>
+        <div class="form-group border-cards border-normal">
+          <img class="product-1" src="assets\Media\Images\img_grid_4@2x.png" alt="">
+          <div class="form-group legend">
+            <p class="nameProduct">Zoltan Gym Tee</p>
+            <p class="h2 text-pink">$29.00</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="complementaryProducts">
+    <div>
+      <h1 class="text-pink">Productos complementarios</h1>
+    </div>
+    <div class="slider-products">
+      <div class="form-group border-cards border-pink">
+        <img class="product-1" src="assets\Media\Images\img_grid_5@2x.png" alt="">
+        <div class="form-group legend">
+          <p class="nameProduct">Zoltan Gym Tee</p>
+          <p class="h2 text-pink">$29.00</p>
+        </div>
+      </div>
+    <div class="form-group border-cards border-pink">
+      <img class="product-1" src="assets\Media\Images\img_grid_6@2x.png" alt="">
+      <div class="form-group legend">
+        <p class="nameProduct">Zoltan Gym Tee</p>
+        <p class="h2 text-pink">$29.00</p>
+      </div>
+    </div>
+    <div class="form-group border-cards border-pink">
+      <img class="product-1" src="assets\Media\Images\img_grid_7@2x.png" alt="">
+      <div class="form-group legend">
+        <p class="nameProduct">Zoltan Gym Tee</p>
+        <p class="h2 text-pink">$29.00</p>
+      </div>
+    </div>
+    <div class="form-group border-cards border-pink">
+      <img class="product-1" src="assets\Media\Images\img_grid_8@2x.png" alt="">
+      <div class="form-group legend">
+        <p class="nameProduct">Zoltan Gym Tee</p>
+        <p class="h2 text-pink">$29.00</p>
+      </div>
+    </div>
+  </div>
+   </section>
+    </div>
+    <div class="icon text-center">
+      <img src="assets\Media\Icons\logo.svg" alt="My Clothes" class="logo" />
+    </div>
+    <footer class="bg-skyblue text-blue">
+      <div class="row wrapper columnInSm">
+        <div class="col-2">
+          <div class="column-footer">
+            <p class="title">
+              <span class="title">Acerca de MyClotes</span>
+            </p>
+            <ul class="list-style-none">
+              <li>Quiénes somos</li>
+              <li>Atención a cliente</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="column-footer">
+            <p class="title">
+              <span class="title">Políticas</span>
+            </p>
+            <ul class="list-style-none">
+              <li>Política de privacidad</li>
+              <li>Ordenes y devoluciones</li>
+              <li>Política de Cookies</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="column-footer">
+            <p class="title">
+              <span class="title">Redes Sociales</span>
+            </p>
+            <ul class="list-style-none">
+              <li>
+                <img src="assets/Media/Icons/icon_instagram.svg" class="icon-btn-cart"> Instagram</li>
+              <li><img src="assets/Media/Icons/icon_facebook.svg" class="icon-btn-cart"> Facebook</li>
+              <li><img src="assets/Media/Icons/icon_twitter.svg" class="icon-btn-cart"> Twitter</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="column-footer"></div>
+        </div>
+        <div class="col-2">
+          <div class="column-footer"></div>
+        </div>
+        </div>
+      </div>
+      </div>
+    </footer>
+    <div class="copyright wrapper text-align-center">
+      <p>Todos los derechos reservados ©2021</p>
+    </div>
+    
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="assets/js/Slick/slick.min.js"></script>
+  <script src="assets/js/theme/menu.js"></script>
+  <script src="assets/js/theme/slider.js"></script>
+  </body>
+</html>
