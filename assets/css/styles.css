@@ -25,16 +25,16 @@ html {
 }
 @font-face {
   font-family: "Poppins";
-  src: url("/assets/Fonts/Poppins-Regular.ttf");
+  src: url("assets/Fonts/Poppins-Regular.ttf");
 }
 @font-face {
   font-family: "Poppins-Medium";
-  src: url("/assets/Fonts/Poppins-Medium.ttf");
+  src: url("assets/Fonts/Poppins-Medium.ttf");
 }
 
 @font-face {
   font-family: "Poppins-Light";
-  src: url("/assets/Fonts/Poppins-Medium.ttf");
+  src: url("assets/Fonts/Poppins-Medium.ttf");
 }
 
 * {
